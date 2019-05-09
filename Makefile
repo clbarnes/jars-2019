@@ -21,7 +21,7 @@ else
 	GSLIDES_OPTIONS =
 endif
 
-default: pdf
+default: gslides
 
 pdf: outdir
 	landslide -d $(PDF) $(LANDSLIDE_OPTIONS)
