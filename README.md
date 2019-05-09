@@ -13,7 +13,7 @@ npm install -g md2gslides
 ## Usage
 
 ```sh
-make gslides
+make
 ```
 
 The first time it's used, a new presentation will be created and opened in your browser.

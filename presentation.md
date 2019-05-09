@@ -129,15 +129,15 @@ see updates on the fly-->
 # CATMAID extensions
 
 - Reduce barrier to entry for devs
-<!--Previously, had to fork mainline catmaid and then manually merge updates-->
-<!--Now, have your own project which can be installed in a catmaid environment with 3 commands (install, update database, collect frontend files)-->
-<!--Asynchronous versioning-->
 - Different features for different servers
-<!--CATMAID is currently not very discoverable, adding more widgets doesn't help that-->
 - Add:
   - Database tables
   - API endpoints
   - Frontend tools
+<!--Previously, had to fork mainline catmaid and then manually merge updates-->
+<!--Now, have your own project which can be installed in a catmaid environment with 3 commands (install, update database, collect frontend files)-->
+<!--Asynchronous versioning-->
+<!--CATMAID is currently not very discoverable, adding more widgets doesn't help that-->
 <!--most of the power of a core developer-->
 <!--Can work with just backend for scripting, or include GUI tools-->
 
@@ -146,12 +146,12 @@ see updates on the fly-->
 # CATMAID-synapsesuggestor
 
 - Sparse/ progressive population
-<!--Only populate the data you're interested in (e.g. detected synapses in a known brain region-->
 - Integrates with existing spatial information
-<!--Query for synapses near current features e.g. within 500nm of a specific neuron skeleton-->
-<!--database-internal, and so very fast-->
 - Detector-agnostic
   - Compare results from different sources
+<!--Only populate the data you're interested in (e.g. detected synapses in a known brain region-->
+<!--Query for synapses near current features e.g. within 500nm of a specific neuron skeleton-->
+<!--database-internal, and so very fast-->
 <!--Different parametrisations of the same algorithm different algorithms etc-->
 <!--Query which regions have been targeted with which algorithms-->
 <!--Automatically detected partner information, if your detector supports it, can also be added and queried-->
@@ -169,9 +169,11 @@ but realising automatic annotations as manual ones is a very simple process-->
 
 # Links
 
-- This talk: github.com/clbarnes/jars-2019
-- Extension template: github.com/clbarnes/CATMAID-ext-cookiecutter/
-- CATMAID python interface: github.com/catmaid/catpy
+This talk: github.com/clbarnes/jars-2019
+
+Extension template: github.com/clbarnes/CATMAID-ext-cookiecutter/
+
+CATMAID API in python: github.com/catmaid/catpy
 
 ---
 
