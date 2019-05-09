@@ -45,6 +45,7 @@
 ![](img/em.png)
 
 <!--Screenshot from CATMAID-->
+<!--200+kloc web application-->
 <!--Where we do the bulk of our annotation and analysis-->
 
 ---
@@ -121,8 +122,89 @@ see updates on the fly-->
 
 ---
 
-# CATMAID-synapsesuggestor
+# Putting it all together
 
 ---
+
+# CATMAID extensions
+
+- Reduce barrier to entry for devs
+<!--Previously, had to fork mainline catmaid and then manually merge updates-->
+<!--Now, have your own project which can be installed in a catmaid environment with 3 commands (install, update database, collect frontend files)-->
+<!--Asynchronous versioning-->
+- Different features for different servers
+<!--CATMAID is currently not very discoverable, adding more widgets doesn't help that-->
+- Add:
+  - Database tables
+  - API endpoints
+  - Frontend tools
+<!--most of the power of a core developer-->
+<!--Can work with just backend for scripting, or include GUI tools-->
+
+---
+
+# CATMAID-synapsesuggestor
+
+- Sparse/ progressive population
+<!--Only populate the data you're interested in (e.g. detected synapses in a known brain region-->
+- Integrates with existing spatial information
+<!--Query for synapses near current features e.g. within 500nm of a specific neuron skeleton-->
+<!--database-internal, and so very fast-->
+- Detector-agnostic
+  - Compare results from different sources
+<!--Different parametrisations of the same algorithm different algorithms etc-->
+<!--Query which regions have been targeted with which algorithms-->
+<!--Automatically detected partner information, if your detector supports it, can also be added and queried-->
+<!--By default, separate from the connectivity information used in other widgets, 
+(my proof-of-concept detector did not infer directionality) 
+but realising automatic annotations as manual ones is a very simple process-->
+  
+---
+
+# CATMAID-synapsesuggestor
+
+@[youtube](NGbmXV09r9g)
+
+---
+
+# Links
+
+- This talk: github.com/clbarnes/jars-2019
+- Extension template: github.com/clbarnes/CATMAID-ext-cookiecutter/
+- CATMAID python interface: github.com/catmaid/catpy
+
+---
+
+# Acknowledgements
+
+![](img/background.jpg){.background}
+
+**Cardona lab**
+
+Albert Cardona
+
+Andrew Champion
+
+Tom Kazimiers
+
+Will Patton
+
+{.column}
+
+**Collaborators**
+
+Stuart Berg
+
+Anna Kreshuk
+
+Ilastik developers
+
+**Graduate program**
+
+Erik Snapp
+
+Sue Jones
+
+Bill Schafer
 
 

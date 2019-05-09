@@ -23,10 +23,10 @@ endif
 
 default: gslides
 
-pdf: outdir
+pdf:
 	landslide -d $(PDF) $(LANDSLIDE_OPTIONS)
 
-html: outdir
+html:
 	landslide -d $(HTML) $(LANDSLIDE_OPTIONS)
 
 view: view-pdf
@@ -37,9 +37,5 @@ view-pdf: pdf
 view-html: html
 	$(BROWSER) $(HTML)
 
-outdir:
-	mkdir -p $(OUT_DIR)
-
 gslides:
 	md2gslides --use-fileio $(GSLIDES_OPTIONS) $(INFILE)
-
