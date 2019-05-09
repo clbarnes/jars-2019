@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   viewBox="0 0 270.93333 203.20001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="all.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="420.7734"
+     inkscape:cy="395.94423"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="false"
+     inkscape:window-width="1593"
+     inkscape:window-height="903"
+     inkscape:window-x="504"
+     inkscape:window-y="886"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-93.799983)">
+    <image
+       sodipodi:absref="/home/barnesc/work/presentations/jars-2019/img/papers/hager.png"
+       xlink:href="hager.png"
+       width="98.160423"
+       height="116.53997"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       id="image88"
+       x="169.95699"
+       y="96.445816" />
+    <image
+       sodipodi:absref="/home/barnesc/work/presentations/jars-2019/img/papers/heinrich.png"
+       xlink:href="heinrich.png"
+       width="160.22411"
+       height="65.553452"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       id="image99"
+       x="9.7328796"
+       y="137.72081" />
+    <image
+       sodipodi:absref="/home/barnesc/work/presentations/jars-2019/img/papers/kreshuk.png"
+       xlink:href="kreshuk.png"
+       width="158.31705"
+       height="41.274998"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       id="image110"
+       x="11.639938"
+       y="96.445816" />
+    <image
+       sodipodi:absref="/home/barnesc/work/presentations/jars-2019/img/papers/parag.png"
+       xlink:href="parag.png"
+       width="99.631874"
+       height="45.096539"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       id="image121"
+       x="162.57378"
+       y="229.34024" />
+    <image
+       sodipodi:absref="/home/barnesc/work/presentations/jars-2019/img/papers/plaza.png"
+       xlink:href="plaza.png"
+       width="154.48508"
+       height="55.373501"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       id="image132"
+       x="3.9309499"
+       y="238.60266" />
+    <image
+       sodipodi:absref="/home/barnesc/work/presentations/jars-2019/img/papers/xiao.png"
+       xlink:href="xiao.png"
+       width="105.88517"
+       height="43.294167"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       id="image143"
+       x="24.990437"
+       y="201.92308" />
+  </g>
+</svg>
