@@ -28,7 +28,7 @@
 
 <!--I'm going to focus on going from the images to the connectivity-->
 
-(1) Raw images
+(1) Raw EM stack
 
 (2) Morphology/ connectivity
 
@@ -44,11 +44,17 @@
 
 ![](img/em.png)
 
+<!--Screenshot from CATMAID-->
+<!--Where we do the bulk of our annotation and analysis-->
+
 ---
 
 # Annotated ssTEM images
 
 ![](img/tracing.png)
+
+<!--We manually skeletonise these neurites-->
+<!--annotate individual synaptic contacts-->
 
 ---
 
@@ -61,6 +67,9 @@
 # Connectivity
 
 ![](img/adj.png)
+
+<!--Stretch receptor sensory neurons onto first-order projection neurons 
+in the first abdominal segment of drosophila larval CNS-->
 
 ---
 
@@ -75,6 +84,44 @@
 # The Solution {.big}
 
 <!--Computers-->
+<!--My particular interest is in synapses, but neurite tracing is also in the works-->
+
+---
+
+# Synapse detection
+
+![](img/ilastik/empty.png)
+
+<!--Proof of concept, use ilastik: very user-friendly, small amount of training data needed,
+see updates on the fly-->
+
+---
+
+# Synapse detection
+
+![](img/ilastik/labels.png)
+
+<!--2-stage autocontext-->
+<!--Hand-paint some sparse labels (this is the first stage, second stage is simpler)-->
+
+---
+
+# Synapse detection
+
+![](img/ilastik/segments.png)
+
+<!--Results are actually pretty good-->
+
+---
+
+![](img/papers/all.png){.background}
+
+<!--Fortunately, synapse detection is being worked on by a lot of people smarter than me-->
+<!--many promising workflows-->
+
+---
+
+# CATMAID-synapsesuggestor
 
 ---
 
