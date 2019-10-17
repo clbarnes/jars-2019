@@ -208,5 +208,3 @@ Erik Snapp
 Sue Jones
 
 Bill Schafer
-
-
